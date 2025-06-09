@@ -8,16 +8,6 @@ A simple web app built with **React**, **Vite**, and **Tailwind CSS** that fetch
 - Async/await API fetching.
 - Responsive design.
 
-## 🖼️ Demo
-
-### Before API Call
-![Initial State](../assets/beforeApi.png)
-*Clean interface with the "Show Yoga Image" button ready to fetch content*
-
-### After API Call
-![After API Call](../assets/afterApi.png)
-*Beautiful yoga image displayed after clicking the button*
-
 🔗 [Live Site](https://your-vercel-deployment-url.vercel.app)  
 *(Replace with your actual Vercel URL)*
 
