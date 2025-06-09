@@ -1,12 +1,75 @@
-# React + Vite
+# 🧘‍♀️ Yoga Image Generator
+A simple web app built with **React**, **Vite**, and **Tailwind CSS** that fetches and displays a **random yoga image** using the [Pexels API](https://www.pexels.com/api/).
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🌟 Features
+- Fetches high-quality yoga images from Pexels.
+- Simple and clean UI using Tailwind CSS.
+- Built with modern tools: Vite + React.
+- Async/await API fetching.
+- Responsive design.
 
-Currently, two official plugins are available:
+## 🖼️ Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Before API Call
+![Initial State](../assets/beforeApi.png)
+*Clean interface with the "Show Yoga Image" button ready to fetch content*
 
-## Expanding the ESLint configuration
+### After API Call
+![After API Call](../assets/afterApi.png)
+*Beautiful yoga image displayed after clicking the button*
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔗 [Live Site](https://your-vercel-deployment-url.vercel.app)  
+*(Replace with your actual Vercel URL)*
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repo
+```bash
+git clone https://github.com/mounikakondreddy03/YogaWebsite.git
+cd yogaWebsite
+```
+
+### 2. Install Dependencies
+```bash 
+npm install
+```
+
+### 3. Set Up Environment Variable
+Create a .env file in the root and add your Pexels API Key:
+```bash 
+VITE_PEXELS_API_KEY=your_pexels_api_key
+```
+
+### 4. Run the App
+```bash
+npm run dev
+```
+Visit http://localhost:5173
+
+## 🧪 Technologies Used
+- React
+- Vite
+- Tailwind CSS
+- Pexels API
+
+## 🗂️ Project Structure
+```
+src/
+├── App.jsx           
+├── main.jsx           
+├── index.css          
+└── Yoga/
+    └── Yoga.jsx       
+```
+
+## 📦 Deployment
+Deployed using Vercel:
+- Push code to GitHub.
+- Import the project into Vercel.
+- Add environment variable: VITE_PEXELS_API_KEY.
+- Click Deploy.
+
+## 📷 Screenshots
+The app provides a seamless experience from the initial clean interface to displaying beautiful yoga imagery fetched from the Pexels API.
