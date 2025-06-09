@@ -60,6 +60,3 @@ Deployed using Vercel:
 - Import the project into Vercel.
 - Add environment variable: VITE_PEXELS_API_KEY.
 - Click Deploy.
-
-## 📷 Screenshots
-The app provides a seamless experience from the initial clean interface to displaying beautiful yoga imagery fetched from the Pexels API.
