@@ -18,8 +18,7 @@ A simple web app built with **React**, **Vite**, and **Tailwind CSS** that fetch
 ![After Hitting the API Button](https://github.com/mounikakondreddy03/YogaWebsite/blob/67596738202385656fe4862ce5108d001353b93f/AfterApiCalling.png)
 *Beautiful yoga image displayed after clicking the button*
 
-🔗 [Live Site](https://your-vercel-deployment-url.vercel.app)  
-*(Replace with your actual Vercel URL)*
+🔗 [Live Site](https://yoga-website-opal.vercel.app/)
 
 ---
 
